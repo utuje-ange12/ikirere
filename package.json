@@ -1,0 +1,20 @@
+{
+  "name": "ikirere",
+  "version": "1.0.0",
+  "description": "A command-line weather tool for Rwanda and the world",
+  "type": "module",
+  "bin": {
+    "ikirere": "./bin/ikirere.js"
+  },
+  "scripts": {
+    "start": "node bin/ikirere.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": ["weather", "cli", "rwanda"],
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.0"
+  }
+}
